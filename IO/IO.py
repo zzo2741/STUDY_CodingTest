@@ -69,5 +69,8 @@ while i>=0:
     result = result + gobNum1
     print(gobNum2)
 print(result)
+print()
+
+
 
 

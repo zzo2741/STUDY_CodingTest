@@ -49,6 +49,19 @@ else:
         print(2)
     else:
         print(3)
+print()
+# 알람 시계
+time = input().split(" ")
+h = int(time[0])
+m = int(time[1])
+if(m <= 44):
+    h = h - 1
+    if(h < 0):
+        h = 24 + h
+    m = m + 15
+else:
+    m = m - 45
+print('{0} {1}'.format(h, m))
 
 
 
