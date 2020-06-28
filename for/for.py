@@ -64,7 +64,7 @@ for i in range (count):
     print("Case #{0}: {1} + {2} = {3}".format(i+1, num1, num2, result))
 print()
 # 별 찍기 - 1
-start_amount = 5
+start_amount = 5 
 # start_amount = int(input())
 for i in range (start_amount):
     print("*" * (i+1))
